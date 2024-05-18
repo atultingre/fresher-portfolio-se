@@ -1,0 +1,30 @@
+[
+  {
+    "id": 4,
+    "title": "Programming with JavaScript",
+    "category": "Coursera - Meta",
+    "image": "./images/certificates/webDev/Programming with JavaScript.jpg",
+    "url": "https://www.coursera.org/account/accomplishments/verify/E4CXC6R8A2HX"
+  },
+  {
+    "id": 1,
+    "title": "Introduction to Front-End Development",
+    "category": "Coursera - Meta",
+    "image": "./images/certificates/webDev/Introduction to Front-End Development.jpg",
+    "url": "https://www.coursera.org/account/accomplishments/verify/8ZTSPBNJ9Q8T"
+  },
+  {
+    "id": 2,
+    "title": "Zero to Hero React JS mastery E-degree course",
+    "category": "Udemy",
+    "image": "./images/certificates/webDev/Zero to Hero React JS mastery E-degree course.jpg",
+    "url": "https://www.udemy.com/certificate/UC-9c2dee70-281d-4a8b-9140-d7f06ae44c02/  "
+  },
+  {
+    "id": 3,
+    "title": "Introduction to AWS Identity and Access Management",
+    "category": "Coursera - Amazon Web Services",
+    "image": "./images/certificates/webDev/Introduction to AWS Identity and Access Management.jpg",
+    "url": "https://www.coursera.org/account/accomplishments/verify/2RJCZTLSCZZR"
+  }
+]

@@ -1,0 +1,44 @@
+/* ABOUT */
+
+.about .article-title {
+    margin-bottom: 15px;
+}
+
+.about-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-300);
+    line-height: 1.6;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    text-align: justify;
+    /* color: var(--vegas-gold); */
+    /* font-weight: var(--fw-200); */
+    line-height: 1.6;
+}
+
+.about-text span {
+    display: inline;
+    /* color: var(--vegas-gold); */
+    font-weight: var(--fw-600);
+}
+
+/**
+ * responsive larger than 580px screen
+ */
+
+@media (min-width: 580px) {
+    /**
+   * #ABOUT
+   */
+
+    .about .article-title {
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        margin-bottom: 40px;
+    }
+}

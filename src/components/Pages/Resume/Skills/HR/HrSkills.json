@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Payroll",
+    "percentage": "80%",
+    "value": "80"
+  },
+  {
+    "title": "Recruitment and Selection",
+    "percentage": "80%",
+    "value": "80"
+  },
+  {
+    "title": "Employee Onboarding",
+    "percentage": "65%",
+    "value": "65"
+  },
+  {
+    "title": "Employee Relations",
+    "percentage": "70%",
+    "value": "70"
+  },
+  {
+    "title": "Training and Development",
+    "percentage": "45%",
+    "value": "45"
+  },
+
+  {
+    "title": "HR Information Systems (HRIS)",
+    "percentage": "80%",
+    "value": "80"
+  },
+  {
+    "title": "Employee Engagement",
+    "percentage": "60%",
+    "value": "60"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 7,
+    "title": "Internship - Human Resource Associate",
+    "category": "The Entrepreneurship Network",
+    "image": "./images/certificates/Hrm/Certificate_of_Completion_ Tingre Atul Balajirao.jpg",
+    "url": "https://drive.google.com/file/d/1zlWRuJO6xICStlmZVr-Fr1LG7K00W1JT/view?usp=drive_link"
+   
+  },
+  {
+    "id": 1,
+    "title": "Specialization Human Resource Management HR for People Managers",
+    "category": "Coursera - University of Minnesota",
+    "image": "./images/certificates/Hrm/Specialization Human Resource Management HR for People Managers.jpg",
+    "url": "https://www.coursera.org/account/accomplishments/specialization/NM3YLZ357BX7"
+   
+  },
+  {
+    "id": 2,
+    "title": "Recruiting, Hiring, and Onboarding Employees",
+    "category": "Coursera - University of Minnesota",
+    "image": "./images/certificates/Hrm/Recruiting, Hiring, and Onboarding Employees.jpg",
+    "url": "https://www.coursera.org/account/accomplishments/verify/MAYJXB8MK6RY"
+    
+  },
+  {
+    "id": 3,
+    "title": "Managing Employee Compensation",
+    "category": "Coursera - University of Minnesota",
+    "image": "./images/certificates/Hrm/Managing Employee Compensation.jpg",
+    "url": "https://www.coursera.org/account/accomplishments/verify/TJAVJGY8JDLH"
+    
+  },
+  {
+    "id": 4,
+    "title": "Managing Employee Performance",
+    "category": "Coursera - University of Minnesota",
+    "image": "./images/certificates/Hrm/Managing Employee Performance.jpg",
+    "url": "https://www.coursera.org/account/accomplishments/verify/MULT7G549TV3"
+    
+  },
+  {
+    "id": 5,
+    "title": "Preparing to Manage Human Resources",
+    "category": "Coursera - University of Minnesota",
+    "image": "./images/certificates/Hrm/Preparing to Manage Human Resources.jpg",
+    "url": "https://www.coursera.org/account/accomplishments/verify/CNGMNXLFCUK6"
+  },
+  {
+    "id": 6,
+    "title": "Human Resources Management Capstone HR for People Managers",
+    "category": "Coursera - University of Minnesota",
+    "image": "./images/certificates/Hrm/Human Resources Management Capstone HR for People Managers.jpg",
+    "url": "https://www.coursera.org/account/accomplishments/verify/VXQH9QPYMCN8"
+  }
+]

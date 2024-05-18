@@ -1,0 +1,93 @@
+[
+  {
+    "id": 12,
+    "title": "Student Attendance Tracker",
+    "category": "Next.Js - PostgreSQL - Tailwind",
+    "image": "./images/projects/project-12.png",
+    "url": "https://student-attendance-tracking.vercel.app"
+  },
+  {
+    "id": 13,
+    "title": "Expense Tracker",
+    "category": "Next.Js - PostgreSQL - Tailwind",
+    "image": "./images/projects/project-13.png",
+    "url": "https://at-expense-tracker.vercel.app/"
+  },
+  {
+    "id": 14,
+    "title": "Food Ordering App",
+    "category": "React - Node.js - Tailwind",
+    "image": "./images/projects/project-14.png",
+    "url": "https://tingreshop.netlify.app/"
+  },
+  {
+    "id": 8,
+    "title": "Resume Builder",
+    "category": "React - Javascript - CSS",
+    "image": "./images/projects/project-10.png",
+    "url": "https://online-resume-builder-app.netlify.app/"
+  },
+  {
+    "id": 7,
+    "title": "GitHub Clone",
+    "category": "React - Javascript - GitHub Api - CSS",
+    "image": "./images/projects/project-7.png",
+    "url": "https://gitinsight.netlify.app/"
+  },
+  {
+    "id": 11,
+    "title": "React Forms",
+    "category": "React - Javascript - CSS",
+    "image": "./images/projects/project-11.png",
+    "url": "https://react-forms.netlify.app/"
+  },
+  {
+    "id": 8,
+    "title": "CoinWatch - A realtime curreny price tracker",
+    "category": "React - Javascript - coingecko Api - MUI",
+    "image": "./images/projects/project-8.png",
+    "url": "https://cryptowatch-tingrecodes.netlify.app/"
+  },
+  {
+    "id": 2,
+    "title": "MoviesFinder",
+    "category": "React - Javascript - IDBM Api",
+    "image": "./images/projects/project-2.png",
+    "url": "https://moviesfinder-tingrecodes.netlify.app/"
+  },
+  {
+    "id": 3,
+    "title": "GitInSight",
+    "category": "React - Javascript - GitHub Api",
+    "image": "./images/projects/project-3.png",
+    "url": "https://gitinsight-tingrecodes.netlify.app/"
+  },
+  {
+    "id": 9,
+    "title": "Task App",
+    "category": "HTML - CSS - Javascript",
+    "image": "./images/projects/project-9.png",
+    "url": "https://task-app-tingrecodes.netlify.app/"
+  },
+  {
+    "id": 6,
+    "title": "QR Code Generator",
+    "category": "HTML - CSS - Javascript",
+    "image": "./images/projects/project-6.png",
+    "url": "https://qrcodegenerator-tingrecodes.netlify.app/"
+  },
+  {
+    "id": 1,
+    "title": "Daily Goals",
+    "category": "React - Javascript - CSS",
+    "image": "./images/projects/project-4.png",
+    "url": "https://dailygoals-tingrecodes.netlify.app/"
+  },
+  {
+    "id": 5,
+    "title": "University Website.",
+    "category": "HTML - CSS - JavaScript",
+    "image": "./images/projects/project-5.png",
+    "url": "https://collegewebsite-tingrecodes.netlify.app/"
+  }
+]

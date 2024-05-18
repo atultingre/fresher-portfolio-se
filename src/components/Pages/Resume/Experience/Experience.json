@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "position": "Full Stack Developer",
+    "company": "Seattle New Media",
+    "startYear": "August 2023",
+    "endYear": "February 2024",
+    "description": [
+      {
+        "title": "Innovative Solutions",
+        "content": "Employed by a product-based US company specializing in innovative solutions."
+      },
+      {
+        "title": "Product Development",
+        "content": "Contributed to the development of \"connectmate.io\" a prominent product within the company."
+      },
+      {
+        "title": "Seamless Integration",
+        "content": "Proficiently integrated Airtable and Webflow through React.js for seamless functionality."
+      },
+      {
+        "title": "UI Refactoring Leadership",
+        "content": "Spearheaded the refactoring of the user interface (UI), transitioning from the old design to a modern UI using React and Ant Design."
+      },
+      {
+        "title": "API Expertise",
+        "content": "Demonstrated expertise in API integration to enhance the overall functionality and connectivity of the product."
+      }
+    ]
+  }
+]

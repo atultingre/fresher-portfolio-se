@@ -1,5 +1,34 @@
 [
   {
+    "id": 2,
+    "position": "Software Developer",
+    "company": "Flexisales Marketing",
+    "startYear": "July 2024",
+    "endYear": "Present",
+    "description": [
+      {
+        "title": "Innovative Solutions",
+        "content": "Joined a forward-thinking company focused on CRM solutions and innovative marketing strategies."
+      },
+      {
+        "title": "Product Development",
+        "content": "Currently working on the development of a comprehensive CRM system, incorporating dashboards for various roles including Research Analysts, Contact Verification, and SWAT teams."
+      },
+      {
+        "title": "Frontend Development",
+        "content": "Utilizing React.js for dynamic user interfaces, with a focus on modern design using Ant Design for consistency and Tailwind CSS for responsive landing pages."
+      },
+      {
+        "title": "Backend and Database Management",
+        "content": "Engaged in backend development with PHP and database management to support CRM functionalities and ensure seamless data handling."
+      },
+      {
+        "title": "API Integration",
+        "content": "Enhancing product connectivity and integration through API development and management."
+      }
+    ]
+  },
+  {
     "id": 1,
     "position": "Full Stack Developer",
     "company": "Seattle New Media",

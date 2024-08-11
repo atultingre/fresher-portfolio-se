@@ -42,7 +42,7 @@ const About = () => {
       </header>
       <section className="about-text">
         <p>
-          Experienced Fullstack Developer with{" "}
+          Experienced Software Developer with{" "}
           {totalYears > 0 ? (
             <span>
               {totalYears} years and {remainingMonths} months

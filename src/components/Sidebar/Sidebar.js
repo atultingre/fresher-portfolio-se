@@ -21,13 +21,13 @@ const Sidebar = () => {
       <div className="sidebar-info">
         <figure className="avatar-box">
           {/* <img src="./images/my-avatar1.png" alt="Atul Tingre" width="80" /> */}
-          <img src="./images/my-avatar2.jpg" alt="Atul Tingre"/>
+          <img src="./images/my-avatar3.png" alt="Atul Tingre"/>
         </figure>
         <div className="info-content">
           <h1 className="name" title="Atul Tingre">
             Atul Tingre
           </h1>
-          <p className="title">Software Engineer</p>
+          <p className="title">Software Developer</p>
         </div>
         <button
           className="info-more-btn"

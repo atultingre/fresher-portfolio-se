@@ -4,57 +4,36 @@ import "./About.css";
 // import Clients from "../Clients/Clients";
 import Skills from "../Resume/Skills/Skills";
 import useTitle from "../../hook/useTitle";
+import ExperienceData from "../Resume/Experience/Experience.json";
+
+const calculateExperienceInMonths = (start, end) => {
+  const parseDate = (dateStr) => {
+    const [month, year] = dateStr.split(" ");
+    return new Date(`${month} 1, ${year}`);
+  };
+
+  const startDate = parseDate(start);
+  const endDate = end === "Present" ? new Date() : parseDate(end);
+
+  // Calculate the difference in months
+  const yearsDiff = endDate.getFullYear() - startDate.getFullYear();
+  const monthsDiff = endDate.getMonth() - startDate.getMonth();
+
+  return yearsDiff * 12 + monthsDiff + 1; // Add 1 to include the start month
+};
 
 const About = () => {
   useTitle("About");
 
-  // function calculateExperience() {
-  //   let years = 0;
-  //   let months = 0;
-  //   const startDate = new Date("2021-04-01");
-  //   const currentDate = new Date();
-  //   const diff = Math.floor(currentDate.getTime() - startDate.getTime());
-  //   const day = 1000 * 60 * 60 * 24;
-  //   let month = diff / day / 30;
-  //   while (month > 12) {
-  //     years++;
-  //     month = month % 12;
-  //     if (month < 12) {
-  //       months = Math.floor(month);
-  //     }
-  //   }
+  const totalMonths = ExperienceData.reduce((total, experience) => {
+    const start = experience.startYear;
+    const end = experience.endYear;
+    return total + calculateExperienceInMonths(start, end);
+  }, 0);
 
-  //   return years === 0
-  //     ? months + " months"
-  //     : years === 1
-  //     ? years + " year and " + months + " months"
-  //     : years + " years and " + months + " months";
-  // }
-  function calculateExperience(startingDate) {
-    const currentDate = new Date();
-    const startDate = new Date(startingDate);
-
-    // Calculate the difference in milliseconds
-    const timeDifference = currentDate - startDate;
-
-    // Calculate the number of milliseconds in a year and a month
-    const millisecondsPerYear = 365.25 * 24 * 60 * 60 * 1000;
-    const millisecondsPerMonth = 30.44 * 24 * 60 * 60 * 1000;
-
-    // Calculate the number of years and months
-    const years = Math.floor(timeDifference / millisecondsPerYear);
-    const months = Math.floor(
-      (timeDifference % millisecondsPerYear) / millisecondsPerMonth
-    );
-
-    return { years, months };
-  }
-
-  // Example usage:
-  const startingDate = "2023-08-01";
-  const experience = calculateExperience(startingDate);
-
-  // console.log(`Experience: ${experience.years} years and ${experience.months} months`);
+  // Convert total months to years and months for display
+  const totalYears = Math.floor(totalMonths / 12);
+  const remainingMonths = totalMonths % 12;
 
   return (
     <div className="about active article">
@@ -63,8 +42,15 @@ const About = () => {
       </header>
       <section className="about-text">
         <p>
-          Experienced Fullstack Developer with <span>6 months</span> of
-          experience in front-end web development with knowledge of backend
+          Experienced Fullstack Developer with{" "}
+          {totalYears > 0 ? (
+            <span>
+              {totalYears} years and {remainingMonths} months
+            </span>
+          ) : (
+            <span>{remainingMonths} months</span>
+          )}{" "}
+          of experience in front-end web development with knowledge of backend
           technologies such as Node.js, Express.js, and MongoDB. Strong
           understanding of JavaScript and its ecosystem. Proven ability to work
           collaboratively with cross-functional teams and deliver high-quality,

@@ -8,7 +8,7 @@ const Navbar = () => {
     { name: "Resume", path: "/resume" },
     { name: "Certificates", path: "/certificate" },
     { name: "Projects", path: "/projects" },
-    { name: "Contact", path: "/contact" },
+    // { name: "Contact", path: "/contact" },
     // { name: "Blog", path: "/blog" },
   ];
 

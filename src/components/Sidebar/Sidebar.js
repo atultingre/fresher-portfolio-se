@@ -21,18 +21,19 @@ const Sidebar = () => {
       <div className="sidebar-info">
         <figure className="avatar-box">
           {/* <img src="./images/my-avatar1.png" alt="Atul Tingre" width="80" /> */}
-          <img src="./images/my-avatar3.png" alt="Atul Tingre"/>
+          <img src="./images/my-avatar4.png" alt="Atul Tingre" />
         </figure>
         <div className="info-content">
           <h1 className="name" title="Atul Tingre">
             Atul Tingre
           </h1>
-          <p className="title">Software Developer</p>
+          <p className="title">Frontend Developer</p>
         </div>
         <button
           className="info-more-btn"
           onClick={handleSidebarToggle}
-          data-sidebar-btn>
+          data-sidebar-btn
+        >
           <span>Show Contacts</span>
           <div className="ion-icon">
             <BsChevronDown />

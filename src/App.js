@@ -5,7 +5,7 @@ import About from "./components/Pages/About/About";
 import Resume from "./components/Pages/Resume/Resume";
 import Portfolio from "./components/Pages/Portfolio/Portfolio";
 import Blog from "./components/Pages/Blog/Blog";
-import Contact from "./components/Pages/Contact/Contact";
+// import Contact from "./components/Pages/Contact/Contact";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Certificates from "./components/Pages/Certificate/Certificates";
 import Layout from "./components/Layout/Layout";
@@ -25,7 +25,7 @@ function App() {
               <Route exact path="/projects" element={<Portfolio />} />
               <Route exact path="/certificate" element={<Certificates />} />
               <Route exact path="/blog" element={<Blog />} />
-              <Route exact path="/contact" element={<Contact />} />
+              {/* <Route exact path="/contact" element={<Contact />} /> */}
               <Route exact path="*" element={<Error />} />
             </Route>
           </Routes>

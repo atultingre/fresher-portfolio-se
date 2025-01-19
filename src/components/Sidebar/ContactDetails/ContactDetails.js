@@ -4,7 +4,7 @@ import { AiOutlineMobile } from "react-icons/ai";
 import { BsEnvelopeAt, 
   // BsCalendar3, 
   BsFillGeoAltFill } from "react-icons/bs";
-import ContactItem from "./ContactItem"; // Assuming you've named the ContactItem component file as "ContactItem.js"
+import ContactItem from "./ContactItem"; 
 
 const ContactDetails = () => {
   return (

@@ -5,6 +5,7 @@
   "homepage": "https://atultingre.github.io/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "axios": "^1.7.9",
     "install": "^0.13.0",
     "npm": "^9.6.7",
     "react": "^18.2.0",
